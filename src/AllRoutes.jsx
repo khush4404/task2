@@ -5,7 +5,7 @@ const AllRoutes = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/spa-form" element={<App />} />
+                <Route path="/" element={<App />} />
             </Routes>
         </BrowserRouter>
     )
